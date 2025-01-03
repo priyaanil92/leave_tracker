@@ -82,6 +82,7 @@ export const DateGrid = ({ currentMonth }: DateGridProps) => {
           display="flex"
           flexDirection="column"
           textAlign="center"
+          backgroundColor="blackAlpha.900"
         >
           <Text fontWeight="bold">{day}</Text>
         </Box>
